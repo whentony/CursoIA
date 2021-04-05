@@ -4,6 +4,7 @@ const config = {
     hiddenLayers: [5],
     activation: 'leaky-relu',
     leakyReluAlpha: 0.01,
+    decayRate:0.01
 };
 
 const net = new brain.NeuralNetwork(config);
