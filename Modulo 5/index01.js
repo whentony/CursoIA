@@ -1,4 +1,4 @@
-//Rede Neural com trainamento Assincrono
+//Rede Neural com treinamento Assincrono
 const brain = require('brain.js');
 
 const net = new brain.NeuralNetwork();
